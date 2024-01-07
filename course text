@@ -28,3 +28,5 @@ apk update
 apk add mysql-client
 mysql -h database -uroot -ppassword fleetman
 
+kubectl logs queue-6f9f94b968-wrjht
+kubectl logs position-tracker-569f7d46c8-2xhs6
