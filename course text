@@ -27,3 +27,4 @@ nslookup database
 apk update
 apk add mysql-client
 mysql -h database -uroot -ppassword fleetman
+
