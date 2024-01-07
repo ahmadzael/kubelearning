@@ -1,0 +1,29 @@
+minikube start --driver=docker
+
+kubectl get all
+kubectl apply -f first-pod.yaml
+
+kubectl exec webapp ls
+kubectl describe svc fleetman-webapp
+
+kubectl apply -f webapp-service.yaml
+kubectl delete po webapp
+
+kubectl describe replicaset webapp
+kubectl delete rs webapp
+
+kubectl rollout status deploy webapp
+kubectl rollout history deploy webapps
+kubectl rollout undo deploy webapp
+
+kubectl get all -n kube-system
+
+kubectl get ns
+kubectl exec -it webapp-59f4b865ff-sqp9s sh
+
+cat /etc/resolv.conf
+
+nslookup database
+apk update
+apk add mysql-client
+mysql -h database -uroot -ppassword fleetman
