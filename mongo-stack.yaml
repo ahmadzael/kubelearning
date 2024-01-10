@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: mongodb:3.6.5-jessie
+        image: mongo:3.6.5-jessie
