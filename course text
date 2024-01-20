@@ -30,3 +30,32 @@ mysql -h database -uroot -ppassword fleetman
 
 kubectl logs queue-6f9f94b968-wrjht
 kubectl logs position-tracker-569f7d46c8-2xhs6
+
+
+Provisioning hard drive
+Storage classes
+AWS Block store
+
+io1 -> SSD
+
+Edit yaml prepare deploy to kubernetes
+setup domain name
+test deleting node
+add replica set to 2
+Amazon active mq
+
+Logging 
+ELK ElasicStack
+LOgstash or FluentD -> ElasticSearch -> Kibana
+
+Daemon set, statefulset
+
+setup KIbana
+
+use kibana
+
+tagging error with kibana (queue problem)
+
+create dashboard logiging with kibana
+
+queue emergency gauge
